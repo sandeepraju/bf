@@ -44,5 +44,31 @@ func main() {
 	// TODO: why is there a '.' trailing the program
 	fmt.Println(prog)
 
-	// var data [30000]int
+	var data [30000]int
+
+	for cmd := range prog {
+		switch cmd {
+		case '+':
+			break
+		case '-':
+			break
+		case '<':
+			break
+		case '>':
+			break
+		case '.':
+			break
+		case ',':
+			break
+		case '[':
+			break
+		case ']':
+			break
+		default:
+			break
+		}
+	}
+
+	// TODO: how to check the validity of the program?
+	// TODO: syntactic correctness?
 }
